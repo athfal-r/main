@@ -1,0 +1,65 @@
+## 1. Newton Second Law
+
+program hitung_resultan_gaya
+
+//deklarasi
+var 
+READ Resultan gaya (ΣF),massa benda (m) ,percepatan benda (a) :integer
+
+//alogaritma
+m <-- 600 kg ;
+a <-- 2 m/s2 ;
+
+resultan gaya (ΣF) <-- m * a ;
+
+write <-- resultan gaya
+
+## 2. Tahun Kabisat
+
+program menentukan_tahun_kabisat
+{menentukan apakah suatu tahun merupakan tahun kabisat atau bukan tahun kabisat}
+
+//deklarasi inisialisasi
+READ Tahun 
+
+//kondisi pertama Tahun Kabisat atau bukan
+IF jika tahun habis di bagi 4 dan tidak habis di bagi 100
+PRINT "Tahun Kabisat"
+
+ELSE IF Jika tahun habis di bagi 4 , habis dibagi 100 dan habis di bagi 400
+PRINT "Tahun Kabisat"
+
+ELSE 
+PRINT "Bukan Tahun Kabisat"
+
+## 3. Laundry Day
+
+program menghitung_jumlah_pakaian_yang_akan_dimasukan_ke_mesin_cuci
+
+//deklarasi 
+READ Pakaian equal to 20
+READ Mesin Cuci
+Pemeriksaan jumlah Pakaian
+
+// looping FOR
+FOR PAKAIAN equal to 1 until 20
+PAKAIAN 20 PRINT "MESIN CUCI dinyalakan"
+PAKAIAN < 20 PRINT "MESIN CUCI tidak menyala"
+
+## 4. Periksa Kuku
+
+program periksa_kuku
+
+//deklarasi
+READ guru
+READ siswa/siswi 40
+
+//kondisi pertama
+IF kuku siswa/siswi panjang
+PRINT "MEMUJI"
+
+ELSE IF kuku siswa/siswi tidak panjang
+PRINT "MEMUJI"
+
+ELSE 
+PRINT "MENGHUKUM"
